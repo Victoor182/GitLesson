@@ -1,0 +1,9 @@
+1) git checkout . ( если во всех файлов) git checkout имя файла ( если в один файл) 
+2) git restore --staged имя файла 
+3) git commit --amend -m " "   если надо поменять комментарий 
+Если нужно добавить новый файл то добавляем его в индекс и тоже git commit --amend -m " " 
+git reset HEAD ~ сколько комита 
+4) git revert HEAD 
+Git push -- force ( но лучше не так ) 
+5) git branch имя ветки 
+Git checkout для смены ветки но можно добавить -b и имя ветки создаём и переключяемся к ней
